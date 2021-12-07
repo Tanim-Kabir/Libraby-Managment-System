@@ -18,6 +18,13 @@
 			<h1 style="color: white;">LIBRARY MANAGEMENT SYSTEM</h1>
 		</div>
 
+			<nav>
+				<ul>
+					<li><a href="index.php">HOME</a></li>
+					<li><a href="books.php">BOOKS</a></li>
+					
+				</ul>
+			</nav>
 		</header>
 
 	</div>
