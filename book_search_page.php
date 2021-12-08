@@ -68,10 +68,10 @@
 		  	box-sizing: border-box;
 		  	border: 2px solid #ccc;
 		  	border-radius: 4px;
-		  	font-size: 16px;
+		  	font-size: 1em;
 		  	background-color: white;
 		  	background-image: url('searchicon.png');
-		  	background-position: 0px 0px; 
+		  	background-position: 10px 7px; 
 		  	background-repeat: no-repeat;
 		  	padding: 12px 15px 12px 40px;
 		  	transition: width 0.4s ease-in-out;
