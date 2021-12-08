@@ -1,0 +1,32 @@
+
+nav
+{
+	float: right;
+	word-spacing: 30px;
+	padding: 20px;
+}
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+}
+
+.wrapper
+{
+	height: 660px;
+	width: 1360px;
+	/*background-color: red;*/
+}
+header
+{
+	height: 120px;
+	width: 1460px;
+	background-color: #607d8b;
+	padding: 10px;
+}
+.logo
+{
+	float :left;
+	padding-left: 20px;
+
+}
