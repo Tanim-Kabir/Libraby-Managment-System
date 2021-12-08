@@ -21,7 +21,9 @@
 			<nav>
 				<ul>
 					<li><a href="index.php">HOME</a></li>
-					<li><a href="books.php">BOOKS</a></li>
+					<li><a href="book.php">BOOKS</a></li>
+                    <li><a href="student.php">Student</a></li>
+                    <li><a href="book_search_page.php">book_search_page</a></li>
 					
 				</ul>
 			</nav>
