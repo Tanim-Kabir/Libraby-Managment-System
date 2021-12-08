@@ -1,4 +1,8 @@
 <?php
 
-	$db=mysqli_connect("localhost","root","","library");  
+	// Defining Constants
+	define( 'HOST', 'localhost' );
+	define( 'DB', 'library' );
+	define( 'USER', 'root' );
+	define( 'PASS', '' );
 ?>
