@@ -26,6 +26,20 @@
             <th>Email</th>
             <th>Contact</th>
         </tr>
+        <?php
+
+    while ($row = mysqli_fetch_assoc($result)) {
+        ?>
+        <tr>
+            <td><?php echo $row['first'] ?></td>
+            <td><?php echo $row['last'] ?></td>
+            <td><?php echo $row['id'] ?></td>
+            <td><?php echo $row['email'] ?></td>
+            <td><?php echo $row['contact'] ?></td>
+        </tr>
+        <?php
+    }
+    ?>
     </table>
 
 </body>
