@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/request_books_page.css">
+</head>
+
+<body>
+    
+    <nav>
+    <ul>
+      <li>
+          <a id="a" href="home_page.html">Home</a>
+        </li>
+        <li>
+          <a id="a" href="#">Order Books</a>
+        </li>
+        <li>
+          <a id="a" href="search_books.php">Search</a>
+        </li>
+        <li>
+          <a id="a" href="request_books_page.html">Request Books</a> 
+        </li>
+        <li>
+          <a id="a" href="#">Report</a>
+        </li>
+        <li>  
+          <div class="dropdown">
+            <button class="dropbtn"><a id="a" href="#">Profile</a></button>
+            <div class="dropdown-content">
+              <a href="index.html">Logout</a>
+              <a href="#">Borroded Books</a>
+              <a href="update_profile_page.html">Edit Profile</a>
+            </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+        
+    <div class="space"></div>
+            
+    <div>
+        <form action="request_books_page.php" class="login-form" method="post">
+            <h1>Request Books</h1>
+
+            <div class="txtb">
+                <input type="text" placeholder="Book Name" name="u1">
+            </div>
+
+            <div class="txtb">
+                <input type="text" placeholder="Author" name="author">
+            </div>
+
+            <div class="txtb">
+                <input type="text" placeholder="Edition" name="u2">
+            </div>
+
+            <div class="txtb">
+                <input type="text" placeholder="ISBN No." name="u3">
+            </div>
+            <p style="color:black;">/</p>
+            <input type="submit" name="submit" value="Request" class="logbtn">
+        </form>
+    </div>   
+</body>
+
+</html>
