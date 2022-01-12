@@ -51,9 +51,12 @@
     {
         mysqli_query($db,"INSERT INTO book VALUES ('$_POST[bid]', '$_POST[name]', '$_POST[authors]', '$_POST[edition]', '$_POST[status]', '$_POST[quantity]', '$_POST[department]' , '$_POST[topic]', '$_POST[publication]') ;");
         ?>
-        
+        <script type = "text/javascript">
+          alert("Book Added Successfully.");
+        </script>
+        <?php
     }
-
+?>
 </div>
 
 </body>
