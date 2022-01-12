@@ -46,6 +46,13 @@
         <button style="text-align: center;" class="btn_btn-default" type="submit" name="submit">ADD</button>
     </form>
   </div>
+  <?php
+    if(isset($_POST['submit']))
+    {
+        mysqli_query($db,"INSERT INTO book VALUES ('$_POST[bid]', '$_POST[name]', '$_POST[authors]', '$_POST[edition]', '$_POST[status]', '$_POST[quantity]', '$_POST[department]' , '$_POST[topic]', '$_POST[publication]') ;");
+        ?>
+        
+    }
 
 </div>
 
