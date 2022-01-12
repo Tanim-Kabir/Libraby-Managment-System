@@ -10,7 +10,21 @@
 <head>
 	<title>Books</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+  .form-control
+    {
+    background-color: #004bd530;
+     color: #2a2a4b;
+    height: 30px;
+    width: 300px;
+    }
+    .btn_btn-default
+    {
+     height: 30px;
+    width: 100px;
+    }
 
+    </style>
 </head>
 <body>
 <div id="main">
@@ -32,7 +46,7 @@
         <button style="text-align: center;" class="btn_btn-default" type="submit" name="submit">ADD</button>
     </form>
   </div>
-  
+
 </div>
 
 </body>
