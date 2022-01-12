@@ -24,6 +24,7 @@
 					<li><a href="book.php">BOOKS</a></li>
                     <li><a href="student.php">Student</a></li>
                     <li><a href="book_search_page.php">book_search_page</a></li>
+					<li><a href="add_book.php">Add_Book</a></li>
 					
 				</ul>
 			</nav>
